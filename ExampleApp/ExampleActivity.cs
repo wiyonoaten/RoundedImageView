@@ -4,6 +4,8 @@ using Android.Support.V7.App;
 using Android.App;
 using Android.Widget;
 
+// Note: there is currently an OOM crash that can occur after you rotate the screen a few times,
+// which could be due to something wrong with this example app port, or something fundamentally buggy on the Android lib project binding in Xamarin!
 namespace ExampleApp
 {
     [Activity(Label = "ExampleActivity", MainLauncher = true, Icon = "@drawable/ic_launcher")]
