@@ -33,3 +33,8 @@ local.properties
 *.idea
 *.iml
 */target
+/Components
+/packages
+/MakeramenRoundedImageViewBindingLib.Android/obj
+/MakeramenRoundedImageViewBindingLib.Android/bin
+/ExampleApp/obj
